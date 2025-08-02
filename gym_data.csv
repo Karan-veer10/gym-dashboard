@@ -1,0 +1,11 @@
+MemberID,Name,CheckInDate,AreaUsed,MembershipType
+101,Ravi Kumar,2025-07-01,Cardio,Gold
+102,Neha Singh,2025-07-01,Yoga,Silver
+103,Amit Verma,2025-07-02,Weights,Platinum
+104,Sneha Sharma,2025-07-02,Cardio,Gold
+105,Rahul Das,2025-07-03,Yoga,Gold
+106,Karan Mehta,2025-07-04,Crossfit,Silver
+107,Sonia Jain,2025-07-06,Cardio,Gold
+108,Rajesh Sharma,2025-07-08,Yoga,Platinum
+109,Pooja Verma,2025-07-09,Weights,Gold
+110,Aditya Rao,2025-07-10,Cardio,Silver
