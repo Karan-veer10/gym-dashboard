@@ -1,14 +1,31 @@
-# 🏋️‍♂️ Gym Membership Activity Dashboard
+# 🏋️ Gym Membership Activity Dashboard
 
-This project is a **Data Science Dashboard** built using Python, Dash, Pandas, and Plotly. It helps track gym member attendance and facility usage.
+This is a data visualization dashboard to **track gym member attendance and facility usage** using Python and Dash.
 
 ---
 
 ## 📌 Problem Statement
 
-**Objective:**  
-Create an interactive dashboard to monitor gym members’ activity and usage of facilities based on the following input fields:
+Create a Gym Membership Dashboard to:
+- Track daily check-ins
+- Identify popular gym areas
+- Show distribution of membership types
+- Detect inactive members
 
+---
+
+## 📊 Features
+
+- 📈 **Line Chart** – Member check-ins per day
+- 📊 **Bar Chart** – Most used gym areas
+- 🥧 **Pie Chart** – Membership type distribution
+- ⚠️ **Highlight** – Inactive members
+
+---
+
+## 🧾 Input Data Format
+
+CSV file must contain:
 - `MemberID`
 - `Name`
 - `CheckInDate`
@@ -17,34 +34,51 @@ Create an interactive dashboard to monitor gym members’ activity and usage of 
 
 ---
 
-## 🎯 Expected Visualizations
+## 🛠 Tech Stack
 
-- 📈 **Line Chart** – Daily member check-ins
-- 📊 **Bar Chart** – Most popular gym areas
-- 🥧 **Pie Chart** – Membership type distribution
-- ❌ **Inactive Members** – List of members who haven’t checked in recently
-
----
-
-## 🛠️ Technologies Used
-
-- Python 🐍
-- Dash & Dash Bootstrap Components
+- Python
+- Dash (Plotly)
 - Pandas
-- Plotly Express
+- VS Code
 
 ---
 
-## 🧪 How to Run the App
+## 🚀 How to Run
 
-1. 📦 Install dependencies:
+1. Clone the repo:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/Karan-veer10/gym-dashboard.git
+   cd gym-dashboard
 
-    ▶️ Run the application:
+    Install required packages:
+
+pip install -r requirements.txt
+
+Run the dashboard:
 
 python app.py
 
-🌐 Visit in browser:
+Open in browser:
 
-http://127.0.0.1:8050/
+    http://127.0.0.1:8050
+
+
+📚 Project Rubric Coverage
+
+    ✅ Problem Understanding
+
+    ✅ Data Input + Preprocessing
+
+    ✅ Charts: Line, Bar, Pie
+
+    ✅ Highlight inactive members
+
+    ✅ Code structure & comments
+
+    ✅ Final Presentation Ready
+
+📬 Contact
+
+Karan Veer
+BSc (Computer Science & Data Analytics), IIT Patna
+📧 kv16133@gmail.com
